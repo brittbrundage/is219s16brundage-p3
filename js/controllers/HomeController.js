@@ -97,7 +97,9 @@ app.controller('HomeController', ['$scope', function($scope) {
 
 	
 	/* ADD VARIABLES FOR STEP 3 HERE */
-	
+	$scope.title = "IMDB and Brittani Brundage's Top 8 Movies";
+	$scope.owner = "Brittani Brundage";
+	$scope.github = "https://github.com/brittbrundage/is219s16brundage-p3";
 	
 	
 	
