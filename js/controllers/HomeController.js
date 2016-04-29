@@ -154,11 +154,11 @@ app.controller('HomeController', ['$scope', function($scope) {
 		
 		$scope.dislike = function(index){$scope.movies[index].dislikes += 1;};
 		
-		$scope.posterClick =function(index){console.log($scope.movies[index].posterindex);
-			if ($scope.movies[index].posterindex < $scope.movies[index].posters.length-1) {
-				$scope.movies[index].posterindex += 1; }
-			else { $scope.movies[index].postersindex = 0; }
+		$scope.posterClick =function(index){ $scope.movies[index].posterindex++;
+		if($scope.movies[index].posterindex > $scope.movies[index].posters.length-1){
+			$scope.movies[index].posterindex=0; }
 		};
+	
 		
 		$scope.timeText = function(minutes) {return (Math.floor(minutes/60) + "h " + minutes%60 +"m"); };
 		
