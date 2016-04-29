@@ -88,7 +88,49 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
-	}
+	},
+	{ 
+      title:	'Fast and Furious 7', 
+      iscore:	7.3,
+      rating:	'PG-13',
+      runtime:	137,
+      released:	new Date('2015', '04', '3'),
+      country:	'USA',
+      posters:	['img/fast7-poster.jpg','img/furious7-poster.jpg'],
+      imdb:		'http://www.imdb.com/title/tt2820852/?ref_=fn_al_tt_1',
+      website:	'http://www.furious7.com',
+      likes:	1026,
+      dislikes:	110,
+      posterindex: 0
+	},
+	{ 
+      title:	'Act of Valor', 
+      iscore:	6.5,
+      rating:	'R',
+      runtime:	110,
+      released:	new Date('2012', '02', '24'),
+      country:	'USA',
+      posters:	['img/valor.jpg','img/actofvalor.jpg'],
+      imdb:		'http://www.imdb.com/title/tt1591479/?ref_=fn_al_tt_1',
+      website:	'https://www.facebook.com/ActOfValorMovie/',
+      likes:	924,
+      dislikes:	210,
+      posterindex: 0
+	},
+	{ 
+      title:	'Daddy\'s Home', 
+      iscore:	6.2,
+      rating:	'PG-13',
+      runtime:	96,
+      released:	new Date('2015', '12', '25'),
+      country:	'USA',
+      posters:	['img/daddys.jpg','img/home.jpg'],
+      imdb:		'http://www.imdb.com/title/tt1528854/?ref_=nv_sr_1',
+      website:	'http://daddyshomemovie.tumblr.com',
+      likes:	1236,
+      dislikes:	202,
+      posterindex: 0
+	},
 	
 	
   ];
